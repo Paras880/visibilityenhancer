@@ -1,0 +1,5 @@
+# heres a comment
+*.png
+*.jpg
+/ImageDehazer/static/ImageDehazer/SOTS
+/ImageDehazer/static/ImageDehazer/HSTS
