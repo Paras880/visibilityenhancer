@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="PSNR1.2">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Upload Image</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    {% load static %}
+    <link rel = "stylesheet" type="text/css" href="{% static 'ImageDehazer/style.css' %}" >
+    <script src = "https://cldup.com/S6Ptkwu_qA.js"></script>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'ImageDehazer/nicepage.css' %}" media="screen">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'ImageDehazer/Upload-Image.css' %}" media="screen">
+    {% load static %}
+    <script class="u-script" type="text/javascript" src="{% static 'ImageDehazer/jquery.js'%}" defer=""></script>
+    {% load static %}
+    <script class="u-script" type="text/javascript" src="{% static 'ImageDehazer/nicepage.js'%}" defer=""></script>
+    <meta name="generator" content="Nicepage 3.13.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"url": "index.html",
+		"logo": "images/Drishtilogo.png"
+}</script>
+    <meta property="og:title" content="Upload Image">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#478ac9">
+    <link rel="canonical" href="index.html">
+    <meta property="og:url" content="index.html">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-4e71"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <a href="/home" class="u-image u-logo u-image-1" data-image-width="331" data-image-height="276">
+          <img src="{% static 'ImageDehazer/images/Drishtilogo.png' %}" class="u-logo-image u-logo-image-1" data-image-width="130.6174">
+        </a>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+                   </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/home" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/home#carousel_af55" style="padding: 10px 20px;">About</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/home#carousel_8d1c" style="padding: 10px 20px;">Contact</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/Dehazingmethods" style="padding: 10px 20px;">Dehazing Methods</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/qa" style="padding: 10px 20px;">Quantitative Analysis</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/Sotsindoor" style="padding: 10px 20px;">Reside Dataset</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white">ITS</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white">HSTS</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-3"><li class="u-nav-item"><a href = "/hstsreal" class="u-button-style u-nav-link u-white">REAL-WORLD</a>
+</li><li class="u-nav-item"><a href = "/hstssynth" class="u-button-style u-nav-link u-white">SYNTHETIC</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white">SOTS</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-4"><li class="u-nav-item"><a href = "/Sotsindoor" class="u-button-style u-nav-link u-white">INDOOR</a>
+</li><li class="u-nav-item"><a href = "/Sotsoutdoor" class="u-button-style u-nav-link u-white">OUTDOOR</a>
+</li></ul>
+</div>
+</li></ul>
+</div>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-5"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/home" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/home#carousel_af55" style="padding: 10px 20px;">About</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/home#carousel_8d1c" style="padding: 10px 20px;">Contact</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Dehazingmethods" style="padding: 10px 20px;">Dehazing Methods</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/qa" style="padding: 10px 20px;">Quantitative Analysis</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Sotsindoor" style="padding: 10px 20px;">Reside Dataset</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-6"><li class="u-nav-item"><a class="u-button-style u-nav-link">ITS</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">HSTS</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-7"><li class="u-nav-item"><a href = "/hstsreal" class="u-button-style u-nav-link">REAL-WORLD</a>
+</li><li class="u-nav-item"><a href = "/hstssynth" class="u-button-style u-nav-link">SYNTHETIC</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">SOTS</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-8"><li class="u-nav-item"><a href = "/Sotsindoor" class="u-button-style u-nav-link">INDOOR</a>
+</li><li class="u-nav-item"><a href = "/Sotsoutdoor" class="u-button-style u-nav-link">OUTDOOR</a>
+</li></ul>
+</div>
+</li></ul>
+</div>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    {% comment %} <section class="u-clearfix u-custom-color-1 u-section-1" id="sec-640d">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1"></div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> {% endcomment %}
+    <body>
+      <div id = "particles-js">
+      <div class = "text">
+      <h1 >Upload Image</h1>
+
+      {% comment %} <form action ="/dehaze" method = "POST" enctype ="multipart/form-data">
+      {% csrf_token %} {% endcomment %}
+
+
+      {% comment %} {{form}}
+      <input type = "submit" class = "btn btn-danger" value = "Upload">
+      </form> {% endcomment %}
+      <form action="uploads" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type ="checkbox" name= "dcp">Dark Channel Prior<br>
+        <input type ="checkbox" name= "guidedfilter">Guided Filter<br>
+        <input type ="checkbox" name= "nonlocalprior">Non Local Prior<br>
+        <input type="text" name="filename"  placeholder="enter your file name" >
+        <input type="file" multiple name="uploadfoles" >
+        
+        <button type="submit">File Upload</button>
+      </form>
+      </div>    
+
+  {% load static %}
+  <script  src="{% static 'ImageDehazer/script.js' %} "type="text/javascript"></script>
+
+  <footer class="u-clearfix u-footer u-grey-80" id="sec-4ccc"><div class="u-clearfix u-sheet u-sheet-1">
+        <h3 class="u-text u-text-1"><i>Copyright © 2020</i>&nbsp;- Developed by Mind Benders
+        </h3>
+        <h4 class="u-align-center u-text u-text-2">Supervisor<br>Dr. Suresh Chandra Raikwar
+        </h4>
+      </div></footer>
+  </body>
+</html>
